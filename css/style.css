@@ -3,9 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+button, input, optgroup, select, textarea {
+    line-height: normal;
+}
+ul{
+    padding-left: 0;
+}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.6rem;
     line-height: 2;
     background-color: bisque
 }
@@ -71,6 +76,7 @@ footer{
     max-width: 120rem;
     width: 90%;
     margin: 0 auto;
+    padding-top: 2rem;
 }
 .main h3{
     text-align: center;
@@ -91,9 +97,6 @@ img {
     max-width: 100%;
     border-style: none;
 }
-.about-us__texto{
-    font-size: 60%;
-}
 p {
     display: block;
     margin-block-start: 1em;
@@ -102,19 +105,13 @@ p {
     margin-inline-end: 0px;
 }
 .news{
-font-size: 62.5%;
-padding-top: 2rem;
-padding-bottom: 2rem;
-display: flex;
-flex-direction: column;
-align-items: center;
+margin: 2rem auto;
 }
 .enviar {
     margin-left: 3cm;
 }
 .main__footer{
     max-width: 120rem;
-    background-color: black;
     padding-left: 40px;
     padding-right: 40px;
     position: absolute;
@@ -194,7 +191,6 @@ align-items: center;
 .log-in__inicio{
     align-self: center;
     justify-self: end;
-    font-size: 75%;
 }
 .log-in__tittle{
     margin-bottom: 2rem;
@@ -230,13 +226,14 @@ align-items: center;
     width: 20px;
     height: 20px;
 }
-.log-in__button{
-    padding: 1px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: 24px;
-    width: 75px;
-}
+.log-in__button {
+        padding: 1px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: 40px;
+        width: 75px;
+        border-radius: 0.25rem;
+    }
 .log-in__links{
     display: flex;
     flex-direction: column;
@@ -248,7 +245,6 @@ a{
     padding-left: 4rem;
     align-self: center;
     justify-self: start;
-    font-size: 60%;
     text-align: center;
     width: 350px;
 }
@@ -261,7 +257,7 @@ a{
     font-size: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 10rem;
     display: grid;
     min-height: 733px;
@@ -293,13 +289,13 @@ a{
 .contact-us {
     padding-left: 4rem;
     padding-right: 2rem;
-    padding-top: 12rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
     display: grid;
-    min-height: 733px;
+    min-height: 650px;
     grid-template-columns: 40% 50%;
     justify-items: center;
-    gap: 6rem;
+    align-items: center;
+    /* gap: 6rem; */
 }
 .contact-us__form{
     width: 360px;
@@ -345,22 +341,19 @@ a{
     width: 330px;
     padding: 8px;
 }
-.contact-us__enviar{
+.contact-us__enviar {
     grid-area: ele6;
     width: 252px;
     height: 40px;
-    padding: 10px 36px;
+    /* padding: 10px 36px; */
     position: absolute;
     bottom: 5%;
     left: 10%;
     background-color: #ff873a;
     color: #fff;
-
-
 }
 .contact-us__maps {
     display: flex;
-    font-size: 70%;
     gap: 2rem;
     flex-wrap: wrap;
     align-items: center;
@@ -377,7 +370,7 @@ a{
 .soporte{
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 .soporte__background{
     width: 100%;
@@ -423,7 +416,7 @@ a{
     flex-direction: column;
     align-items: center;
     /* min-height: 400px; */
-    font-size: 70%;
+    /* font-size: 70%; */
     position: relative;
 }
 .soporte__search2 {
@@ -467,12 +460,11 @@ a{
     display: flex;
     gap: 1.9rem;
 }
-.video__desktop{
-    display: none;
+.sub {
+    flex-direction: column;
 }
-.video__mobile{
-    display: block;
-    height: 30%;
+.news{
+    width: 50%;
 }
 .header__texto{
     display: none;
@@ -496,9 +488,6 @@ a{
     /* min-height: 550px; */
     margin-bottom: 2rem;
 }
-.about-us__texto{
-    font-size: 60%;
-}
 
 /*log in*/
 
@@ -511,9 +500,15 @@ a{
 /*Products*/
 
 .products{
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
+/*Contact */
+
+.contact-us{
+    gap: 6rem;
+    padding-bottom: 2rem;
+}
 
 /*FAQ*/
 
@@ -538,6 +533,9 @@ a{
     .nav__hide{
         display: none;
 }
+.news{
+    width: 80%;
+}
 
 /*index*/
 
@@ -549,19 +547,18 @@ a{
         flex-direction: row;
 
 }
-    .navegacion{
-        font-size: 50%;
-}
     .footer{
     display: none;
 }
     .footer__mobile{
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
 }
     .li3{
     width: 115px;
     margin-left: 0px;
+    text-align: center;
 }
     .header__texto__mobile{
     display: flex;
@@ -573,12 +570,7 @@ a{
     text-align: center;
     font-size: xx-large;
 }
-    .video__mobile {
-    display: none;
-}
-    .main h3 {
-    font-size: smaller;
-}
+
     .about-us__mobile {
     display: grid;
     margin-top: 2rem;
@@ -596,10 +588,12 @@ a{
 /*log in*/
 
 
-.log-in{
+.log-in {
     display: flex;
     padding-top: 0;
     min-height: 718px;
+    /* margin: 0 auto; */
+    padding-left: 3rem;
 }
 .log-in__qr{
     display: none;
@@ -654,6 +648,9 @@ a{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+.products__tittle{
+    font-size: 1rem;
 }
 
 
