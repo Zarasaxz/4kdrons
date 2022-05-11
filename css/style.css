@@ -9,6 +9,9 @@ body {
     line-height: 2;
     background-color: bisque
 }
+footer{
+    position: relative;
+}
 .header {
     max-height: 1100px;
 }
@@ -105,7 +108,7 @@ padding-bottom: 2rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-
+min-height: 360px;
 }
 .enviar {
     margin-left: 3cm;
@@ -116,6 +119,7 @@ align-items: center;
     padding-left: 40px;
     padding-right: 40px;
     position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
