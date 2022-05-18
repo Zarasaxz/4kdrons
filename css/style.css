@@ -15,7 +15,13 @@ ul {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 2;
-  background-color: bisque;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #212529;
+  color: white;
 }
 
 .navegacion {
@@ -43,6 +49,12 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #fcd535;
+  border-color: #fcd535;
 }
 
 .main {
@@ -285,18 +297,16 @@ a {
   grid-template-rows: 20% 20% 40% 20%;
   grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 none" "ele6 ele6";
   position: relative;
+  background-color: bisque;
 }
 
 .contact-us__enviar {
   grid-area: ele6;
   width: 252px;
   height: 40px;
-  /* padding: 10px 36px; */
   position: absolute;
   bottom: 5%;
   left: 10%;
-  background-color: #ff873a;
-  color: #fff;
 }
 
 .contact-us__maps {
