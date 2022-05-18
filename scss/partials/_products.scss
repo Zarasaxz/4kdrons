@@ -1,0 +1,33 @@
+/* Products */
+
+
+.products{
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    display: grid;
+    min-height: 733px;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    gap: 2rem;
+
+    &__tittle{
+        text-align: center;
+    }
+    
+    &__content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px 20px;
+        padding-top: 2.5rem;
+    }
+}
+
+.filtros{
+    list-style: none;
+    padding-top: 2rem;
+    text-align: center;
+}

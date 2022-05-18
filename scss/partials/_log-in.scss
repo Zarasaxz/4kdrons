@@ -1,0 +1,78 @@
+/* Log in */
+
+
+.log-in {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 7rem;
+    display: grid;
+    min-height: 733px;
+    grid-template-columns: 50% 50%;
+
+    &__inicio{
+        align-self: center;
+        justify-self: end;
+    }
+    
+    &__tittle{
+        margin-bottom: 2rem;
+    }
+    
+    &__email{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        gap: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    &__password{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        gap: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    &__terminos{
+        margin-left: 1rem;
+        display: flex;
+        position: relative;
+    }
+    
+    &__button {
+            padding: 1px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            height: 40px;
+            width: 75px;
+            border-radius: 0.25rem;
+        }
+        
+    &__links{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__qr{
+        padding-left: 4rem;
+        align-self: center;
+        justify-self: start;
+        text-align: center;
+        width: 350px;
+    }
+}
+
+#email{
+    padding: 2px 5px 2px 5px;
+}
+
+#pass{
+    padding: 2px 5px 2px 5px;
+}
+
+.checkbox{
+    position:absolute;
+    right: 102%;
+    bottom: 30%;
+    width: 20px;
+    height: 20px;
+}

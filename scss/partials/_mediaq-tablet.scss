@@ -1,0 +1,54 @@
+@media screen and (max-width: 1023px) {
+
+    /* INDEX */
+    
+    .about-us{
+        display: none;
+    
+        &__mobile {
+            display: grid;
+            margin-top: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            column-gap: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    
+    .sub {
+        flex-direction: column;
+    }
+    
+    .news{
+        width: 50%;
+    }
+    
+    /* LOG IN */
+    
+    .checkbox{
+        right: 102%;
+        bottom: 60%;
+    }
+    
+    /* PRODUCTS */
+    
+    .products{
+        padding-top: 5rem;
+    }
+    
+    /* CONTACT */
+    
+    .contact-us{
+        gap: 6rem;
+        padding-bottom: 2rem;
+    }
+    
+    /* FAQ */
+    
+    .soporte{
+        padding-top: 14rem;
+        &__search {
+            width: 580px;
+        }
+    }
+    }

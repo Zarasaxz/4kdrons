@@ -1,0 +1,86 @@
+/* FAQ */
+
+
+.soporte{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+
+    &__background{
+        width: 100%;
+        height: 500px;
+        background-image: url(../img/faq.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__search {
+        width: 684px;
+        height: 48px;
+        padding: 12px 48px 12px 64px;
+        border-radius: 16px;
+    }
+    
+    &__cuadro1{
+        margin-top: 8rem;
+        position: relative;
+    }
+    
+    &__productos {
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    &__search2 {
+        width: 352px;
+        height: 48px;
+        padding: 12px 24px 12px 64px;
+        border-radius: 16px;
+    }
+    
+    &__cuadro2{
+        margin-top: 2rem;
+        position: relative;
+    }
+}
+
+.search {
+    position: absolute;
+    bottom: 9%;
+    left: 2%;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+
+    &__img{
+        height: 35px;
+        border-radius: 16px;
+    }
+}
+
+.search2 {
+    position: absolute;
+    bottom: 12%;
+    left: 4%;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+
+    &__img{
+        height: 35px;
+        border-radius: 16px;
+    }
+}

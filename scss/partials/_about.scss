@@ -1,0 +1,32 @@
+.main{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    
+    & h3{
+        text-align: center;
+    }
+}
+
+.about-us {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    min-height: 550px;
+    margin-bottom: 2rem;
+    align-items: center;
+
+    &__mobile{
+        display: none;
+    }
+}
+
+.news{
+margin: 2rem auto;
+}
+
+.enviar {
+    margin-left: 3cm;
+}

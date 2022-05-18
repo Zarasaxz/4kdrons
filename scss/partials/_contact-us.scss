@@ -1,0 +1,87 @@
+/* Contact us */
+
+
+.contact-us {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+    display: grid;
+    min-height: 650px;
+    grid-template-columns: 40% 50%;
+    justify-items: center;
+    align-items: center;
+
+    &__form{
+        width: 360px;
+        height: 415px;
+        border: 2px solid #555;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 40% 20% ;
+        grid-template-areas: 
+        "ele1 ele2"
+        "ele3 ele4"
+        "ele5 none"
+        "ele6 ele6";
+        position: relative;
+    }
+    
+    &__enviar {
+        grid-area: ele6;
+        width: 252px;
+        height: 40px;
+        /* padding: 10px 36px; */
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+        background-color: #ff873a;
+        color: #fff;
+    }
+    
+    &__maps {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.nombre{
+    grid-area: ele1;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+}
+
+.apellido{
+    grid-area: ele2;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+}
+
+.telefono{
+    grid-area: ele3;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+}
+
+.email{
+    grid-area: ele4;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+}
+
+.comentario{
+    grid-area: ele5;
+    width: 330px;
+    padding: 8px;
+}
+
+.capital p{
+    margin: 0;
+}

@@ -1,0 +1,154 @@
+@media screen and (max-width: 600px){
+
+    /* FOOTER */
+    
+    .footer {
+        display: none;
+    
+        &__mobile{
+            display: flex;
+            justify-content: center;
+            padding-top: 1rem;
+        }
+    }
+    
+    .li3{
+        width: 115px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    /* INDEX */
+    
+    .about-us__mobile{
+        display: grid;
+        margin-top: 2rem;
+        grid-template-columns: none;
+        grid-template-rows: repeat(4, 1fr);
+        column-gap: 2rem;
+        margin-bottom: 2rem;
+        align-items: baseline;
+    }   
+    
+    .img__mobile{
+        height: 100%;        
+    }
+    
+    .news{
+        width: 80%;
+    }
+    
+    
+    /* LOG IN */
+    
+    
+    .log-in{
+        display: flex;
+        padding-top: 0;
+        min-height: 718px;
+        /* margin: 0 auto; */
+        padding-left: 3rem;
+    
+        &__qr{
+            display: none;
+        }
+    }
+    
+    
+    /* CONTACT */
+    
+    .contact-us {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    
+        &__form {
+            width: 280px;
+        }
+    
+        &__enviar{
+            width: 250px;
+            bottom: 5%;
+            left: 1%;
+        }
+    }
+    
+    .nombre{
+        width: 115px;
+    }
+    
+    .apellido{
+        width: 115px;
+    }
+    
+    .telefono{
+        width: 115px;
+    }
+    
+    .email{
+        width: 115px;
+    }
+    
+    .comentario{
+        width: 250px;
+    }
+    
+    .maps{
+        width: 250px;
+    }
+    
+    /* PRODUCTS */
+    
+    .products{
+            font-size: 0.8rem;
+            padding-top: 6rem;
+    
+            &__content {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+            &__tittle{
+                font-size: 1rem;
+            }
+    }
+    
+    /* FAQ */
+    
+    .soporte{
+        padding-top: 5rem;
+    
+        &__background {
+            height: 360px;
+            background-size: auto;
+        }
+        &__main{
+            font-size: 1rem;
+        }
+        &__tittle {
+            margin-top: 25px;
+        }
+        &__search {
+            width: 240px;
+        }
+        &__cuadro1 {
+            margin-top: 3rem;
+        }
+        &__productos{
+            font-size: 0.8rem;
+    
+            & p{
+                padding-left: 1rem;
+            }
+        }
+    
+        &__search2 {
+            width: 240px;
+        }
+    }
+    }
