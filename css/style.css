@@ -382,6 +382,7 @@ a {
   height: 48px;
   padding: 12px 48px 12px 64px;
   border-radius: 16px;
+  background-color: #f7f7f7;
 }
 
 .soporte__cuadro1 {
@@ -405,6 +406,7 @@ a {
   height: 48px;
   padding: 12px 24px 12px 64px;
   border-radius: 16px;
+  background-color: #f7f7f7;
 }
 
 .soporte__cuadro2 {
