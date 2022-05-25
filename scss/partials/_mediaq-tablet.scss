@@ -6,12 +6,13 @@
         display: none;
     
         &__mobile {
-            display: grid;
+            display: flex;
             margin-top: 2rem;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
             column-gap: 2rem;
-            margin-bottom: 2rem;
+        }
+
+        &__imagen {
+            align-self: center;
         }
     }
     
@@ -34,6 +35,10 @@
     
     .products{
         padding-top: 5rem;
+        
+        &__div {
+            padding-right: 0;
+        }
     }
     
     /* CONTACT */
