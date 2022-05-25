@@ -1,1 +1,10 @@
+:root {
+    --font-color: #424242;
+    --bg-color: #ffe4c4;
+}
+[data-theme="dark"] {
+    --font-color: #e1e1ff;
+    --bg-color: #212529;
+}
+
 $color-dorado: rgb(252, 213, 53);

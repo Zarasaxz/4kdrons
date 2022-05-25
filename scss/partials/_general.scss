@@ -15,8 +15,8 @@ ul{
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2;
-    background-color: white;
-    color: black;
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
 
 .dark-mode{
