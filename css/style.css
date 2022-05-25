@@ -49,6 +49,10 @@ body {
   color: var(--font-color);
 }
 
+.text-secondary {
+  color: white !important;
+}
+
 .dark-mode {
   background-color: #212529;
   color: white;
@@ -162,7 +166,7 @@ input:checked + .slider:before {
   padding-top: 2rem;
 }
 
-.main h3 {
+.main h1 {
   text-align: center;
 }
 
