@@ -117,7 +117,7 @@
     
     .products{
         font-size: 0.8rem;
-        padding-top: 6rem;
+        padding-top: 1rem;
         display: flex;
         flex-direction: column;
         gap: 0;
@@ -133,11 +133,23 @@
             &__tittle{
                 font-size: 1rem;
             }
+
+            &__filter{
+                display: none;
+
+                &-mobile{
+                    display: block;
+                    text-align: center;
+                    font-size: 1rem;
+
+                    &-boton{
+                        color: black;
+                    }
+
+                }
+            }
     }
 
-    .filtros{
-        display: none;
-    }
     
     /* FAQ */
     

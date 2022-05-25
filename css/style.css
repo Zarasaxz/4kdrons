@@ -42,6 +42,10 @@ ul {
   padding-left: 0;
 }
 
+li {
+  list-style: none;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 2;
@@ -383,6 +387,10 @@ input:checked + .slider:before {
   padding-top: 1rem;
 }
 
+.products__filter-mobile {
+  display: none;
+}
+
 .filtros {
   list-style: none;
   padding-top: 2rem;
@@ -690,7 +698,7 @@ input:checked + .slider:before {
   /* PRODUCTS */
   .products {
     font-size: 0.8rem;
-    padding-top: 6rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -706,8 +714,16 @@ input:checked + .slider:before {
   .products__tittle {
     font-size: 1rem;
   }
-  .filtros {
+  .products__filter {
     display: none;
+  }
+  .products__filter-mobile {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .products__filter-mobile-boton {
+    color: black;
   }
   /* FAQ */
   .soporte {
