@@ -600,8 +600,11 @@ input:checked + .slider:before {
 
 @media screen and (max-width: 600px) {
   /* NAV */
-  .theme-switch-wrapper {
-    margin-top: 10px;
+  .theme-switch-wrapper em {
+    display: none;
+  }
+  .nav {
+    font-size: 14px;
   }
   /* FOOTER */
   .footer {
@@ -718,6 +721,7 @@ input:checked + .slider:before {
   }
   .soporte__search {
     width: 240px;
+    font-size: 13.7px;
   }
   .soporte__cuadro1 {
     margin-top: 3rem;
@@ -730,6 +734,7 @@ input:checked + .slider:before {
   }
   .soporte__search2 {
     width: 240px;
+    font-size: 10.9px;
   }
 }
 /*# sourceMappingURL=style.css.map */

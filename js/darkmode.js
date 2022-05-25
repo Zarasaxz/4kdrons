@@ -7,6 +7,7 @@ if (currentTheme) {
   
     if (currentTheme === 'dark') {
         toggleSwitch.checked = true;
+        qr.src = '../img/qr-dark.png'
     }
 }
 

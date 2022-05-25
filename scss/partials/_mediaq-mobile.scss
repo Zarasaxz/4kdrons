@@ -3,8 +3,11 @@
 
     /* NAV */
 
-    .theme-switch-wrapper {
-        margin-top: 10px;
+    .theme-switch-wrapper em {
+        display: none;
+    }
+    .nav{
+        font-size: 14px;
     }
     
     /* FOOTER */
@@ -153,6 +156,7 @@
         }
         &__search {
             width: 240px;
+            font-size: 13.7px;
         }
         &__cuadro1 {
             margin-top: 3rem;
@@ -167,6 +171,7 @@
     
         &__search2 {
             width: 240px;
+            font-size: 10.9px;
         }
     }
     }
