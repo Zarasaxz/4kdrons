@@ -723,7 +723,7 @@ input:checked + .slider:before {
     font-size: 1rem;
   }
   .products__filter-mobile-boton {
-    color: black;
+    color: var(--font-color);
   }
   /* FAQ */
   .soporte {
