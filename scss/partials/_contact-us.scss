@@ -12,20 +12,55 @@
     align-items: center;
 
     &__form{
+        background: #191c29;
         width: 360px;
         height: 415px;
-        border: 2px solid #555;
-        padding: 1rem;
+      padding: 1rem;
+      position: relative;
+      border-radius: 6px;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 20% 20% 40% 20% ;
-        grid-template-areas: 
-        "ele1 ele2"
-        "ele3 ele4"
-        "ele5 none"
-        "ele6 ele6";
-        position: relative;
-        background-color: var(--bg-contact);
+        grid-template-rows: 20% 20% 40% 20%;
+        grid-template-areas:
+            "ele1 ele2"
+            "ele3 ele4"
+            "ele5 none"
+            "ele6 ele6";
+    
+            &::before {
+                content: "";
+                width: 104%;
+                height: 102%;
+                border-radius: 8px;
+                background-image: linear-gradient(
+                  var(--rotate)
+                  , #5ddcff, #3c67e3 43%, #4e00c2);
+                  position: absolute;
+                  z-index: -1;
+                  top: -1%;
+                  left: -2%;
+                  animation: spin 2.5s linear infinite;
+              }
+
+              &::after {
+                position: absolute;
+                content: "";
+                top: calc(415px / 6);
+                left: 0;
+                right: 0;
+                z-index: -1;
+                height: 100%;
+                width: 100%;
+                margin: 0 auto;
+                transform: scale(0.8);
+                filter: blur(calc(415px / 6));
+                background-image: linear-gradient(
+                  var(--rotate)
+                  , #5ddcff, #3c67e3 43%, #4e00c2);
+                  opacity: 1;
+                transition: opacity .5s;
+                animation: spin 2.5s linear infinite;
+              }
     }
     
     &__enviar {

@@ -12,6 +12,12 @@
     --border: #646669 2px solid;
 }
 
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+
 /* MAPS */
 
 $redes:(
