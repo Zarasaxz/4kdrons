@@ -73,11 +73,9 @@
     }
     
     &__maps {
-        display: flex;
+        @include flex(row, center, center);
         gap: 2rem;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
     }
 }
 

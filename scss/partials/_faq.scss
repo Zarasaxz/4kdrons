@@ -15,10 +15,7 @@
     }
     
     &__main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex(column, center, center);
         color: black;
     }
     
@@ -36,13 +33,11 @@
     }
     
     &__productos {
+        @include flex(column, normal, center);
         padding-left: 2rem;
         padding-bottom: 3rem;
         padding-right: 2rem;
         padding-top: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         position: relative;
     }
     

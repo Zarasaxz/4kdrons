@@ -16,8 +16,7 @@
         display: none;
     
         &__mobile{
-            display: flex;
-            justify-content: center;
+            @include flex(row, center, normal);
             padding-top: 1rem;
         }
     }
@@ -30,10 +29,13 @@
     
     /* INDEX */
     
+    .about-us__texto{
+        padding-top: 3rem;
+    }
+
     .about-us__mobile{
-        display: flex;
+        @include flex(column, normal, normal);
         margin-top: 2rem;
-        flex-direction: column;
 
     }   
     
@@ -50,10 +52,9 @@
     
     
     .log-in{
-        display: flex;
+        @include flex(row, normal, normal);
         padding-top: 0;
         min-height: 718px;
-        /* margin: 0 auto; */
         padding-left: 3rem;
     
         &__qr{
@@ -76,6 +77,7 @@
     
         &__form {
             width: 280px;
+            margin-bottom: 3rem;
         }
     
         &__enviar{
@@ -116,18 +118,16 @@
     /* PRODUCTS */
     
     .products{
+        @include flex(column, center, normal);
         font-size: 0.8rem;
         padding-top: 1rem;
-        display: flex;
-        flex-direction: column;
         gap: 0;
         padding-left: 0;
         padding-right: 0;
         margin: 2rem;
     
             &__content {
-                display: flex;
-                flex-direction: column;
+                @include flex(column, normal, normal);
                 gap: 2rem;
             }
             &__tittle{

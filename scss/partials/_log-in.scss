@@ -48,8 +48,7 @@
         }
         
     &__links{
-        display: flex;
-        flex-direction: column;
+        @include flex(column, normal, normal);
     }
     
     &__qr{
