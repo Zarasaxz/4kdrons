@@ -202,6 +202,10 @@ input:checked + .slider:before {
   display: none;
 }
 
+.about-us__titulo {
+  text-align: center;
+}
+
 .news {
   margin: 4rem auto;
 }
@@ -684,7 +688,7 @@ input:checked + .slider:before {
     text-align: center;
   }
   /* INDEX */
-  .about-us__texto {
+  .about-us__texto .about-us__titulo {
     padding-top: 3rem;
   }
   .about-us__mobile {
@@ -811,6 +815,8 @@ input:checked + .slider:before {
   }
   .soporte__productos {
     font-size: 0.8rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
   }
   .soporte__productos p {
     padding-left: 1rem;

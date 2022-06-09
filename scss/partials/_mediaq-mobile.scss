@@ -29,7 +29,7 @@
     
     /* INDEX */
     
-    .about-us__texto{
+    .about-us__texto .about-us__titulo{
         padding-top: 3rem;
     }
 
@@ -175,6 +175,8 @@
         }
         &__productos{
             font-size: 0.8rem;
+            padding-top: 4rem;
+            padding-bottom: 5rem;
     
             & p{
                 padding-left: 1rem;
