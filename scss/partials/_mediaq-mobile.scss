@@ -52,7 +52,7 @@
     
     
     .log-in{
-        @include flex(row, normal, normal);
+        @include flex(row, center, normal);
         padding-top: 0;
         min-height: 718px;
         padding-left: 3rem;
